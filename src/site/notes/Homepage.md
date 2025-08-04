@@ -2,5 +2,8 @@
 {"dg-home":true,"dg-publish":true,"dg-note-icon":"2","permalink":"/homepage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"2"}
 ---
 
-Ciaoooo
+
+# Benvenuto nel mio Giardino Digitale 🌱
+
+<graph />
 
