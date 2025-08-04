@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/film/incontri-ravvicinati-del-terzo-tipo/","tags":["recensione"]}
+{"dg-created":"2025-06-22","dg-edited":"2025-07-25","dg-publish":true,"tags":["recensione"],"dg-icon":null,"dg-note-icon":null,"permalink":"/film/incontri-ravvicinati-del-terzo-tipo/","dgPassFrontmatter":true,"noteIcon":null,"created":"2025-06-22","updated":"2025-07-25"}
 ---
 
 
