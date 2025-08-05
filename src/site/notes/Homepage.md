@@ -6,6 +6,8 @@
 
 <graph />
 
+<Graph>
+
 Questo sito è un **giardino digitale**: uno spazio vivo e in evoluzione dove raccolgo pensieri, appunti, riflessioni e scoperte.  Non è un blog, né un archivio statico: è un ecosistema di **note interconnesse**, che crescono e si trasformano nel tempo.
 
 ---
@@ -42,7 +44,7 @@ Nel mio sistema ho adottato una simbologia botanica per indicare lo stadio di ma
 ## 🔍 Come orientarsi
 
 Puoi esplorare per categorie:
-- [[media/_index\|Media]] → musica, videogiochi, film, libri
+- [[media/Media\|Media]] → musica, videogiochi, film, libri
 - [[idee-future\|idee-future]] → cose che voglio approfondire
 - [[preferiti\|preferiti]] → cose che amo
 
