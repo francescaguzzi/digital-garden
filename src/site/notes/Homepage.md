@@ -4,11 +4,11 @@
 
 # Il mio Giardino Digitale 🌱
 
-<div><span><div class="garden-svg-wrapper"><a title="La fattoria degli animali" href="/letture/libri/la-fattoria-degli-animali" data-icon="default" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Libreria" href="/letture/libreria" data-icon="2" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Incontri ravvicinati del terzo tipo" href="/media/film-e-serie-tv/incontri-ravvicinati-del-terzo-tipo" data-icon="1" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Severance" href="/media/film-e-serie-tv/severance" data-icon="3" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Stray" href="/media/videogiochi/stray" data-icon="default" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Media" href="/media/media" data-icon="2" class="svg-plant" target="_blank" rel="noopener nofollow"></a></div>
+<div><span><div class="garden-svg-wrapper"><a title="La fattoria degli animali" href="/letture/libri/la-fattoria-degli-animali" data-icon="default" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="L'amica geniale" href="/letture/libri/lamica-geniale" data-icon="1" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Corpi neri e gatti quantistici Storie dagli annali della fisica" href="/letture/libri/corpi-neri-e-gatti-quantistici-storie-dagli-annali-della-fisica" data-icon="1" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Libreria" href="/letture/libreria" data-icon="2" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Incontri ravvicinati del terzo tipo" href="/media/film-e-serie-tv/incontri-ravvicinati-del-terzo-tipo" data-icon="1" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Severance" href="/media/film-e-serie-tv/severance" data-icon="default" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="An Awesome Wave - alt‐J" href="/media/musica/an-awesome-wave---altj-" data-icon="default" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Stray" href="/media/videogiochi/stray" data-icon="default" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Libreria musicale" href="/media/libreria-musicale" data-icon="2" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Media" href="/media/media" data-icon="default" class="svg-plant" target="_blank" rel="noopener nofollow"></a></div>
 <div class="garden-counts">
-  <span><img class="emoji" draggable="false" alt="🌱" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f331.svg" width="16px" height="16px"></span> Germogli: 2 &nbsp;&nbsp;
-  <span><img class="emoji" draggable="false" alt="🌿" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f33f.svg" width="16px" height="16px"></span> Foglie: 1 &nbsp;&nbsp;
-  <span><img class="emoji" draggable="false" alt="🌸" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f338.svg" width="16px" height="16px"></span> Fiori: 1 &nbsp;&nbsp;
+  <span><img class="emoji" draggable="false" alt="🌱" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f331.svg" width="16px" height="16px"></span> Germogli: 5 &nbsp;&nbsp;
+  <span><img class="emoji" draggable="false" alt="🌿" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f33f.svg" width="16px" height="16px"></span> Foglie: 3 &nbsp;&nbsp;
+  <span><img class="emoji" draggable="false" alt="🌸" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f338.svg" width="16px" height="16px"></span> Fiori: 0 &nbsp;&nbsp;
   <span><img class="emoji" draggable="false" alt="🌳" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f333.svg" width="16px" height="16px"></span> Alberi: 2
 </div></span></div>
 
@@ -63,7 +63,8 @@ I miei *topic di interesse* riguardano principalmente:
 - Design 
 
 Puoi esplorare per categorie:
-- [[media/Media\|Media]] → musica, videogiochi, film
+- [[media/Libreria musicale\|Libreria musicale]] → musica
+- [[media/Media\|Media]] → videogiochi, film
 - [[letture/Libreria\|Libreria]] → libri, articoli e paper
 - [[Idee future\|Idee future]] → cose che voglio approfondire
 - [[Preferiti\|Preferiti]] → cose che amo

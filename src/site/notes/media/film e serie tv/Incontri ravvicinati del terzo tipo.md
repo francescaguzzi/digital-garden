@@ -1,12 +1,12 @@
 ---
-{"dg-created":"2025-06-22","dg-edited":"2025-07-25","dg-publish":true,"tags":["recensione"],"dg-note-icon":"1","permalink":"/media/film-e-serie-tv/incontri-ravvicinati-del-terzo-tipo/","dgPassFrontmatter":true,"noteIcon":"1","created":"2025-06-22","updated":"2025-07-25"}
+{"dg-created":"2025-06-22","dg-edited":"2025-07-25","dg-publish":true,"tags":["recensione","film","fantascienza"],"dg-note-icon":"1","permalink":"/media/film-e-serie-tv/incontri-ravvicinati-del-terzo-tipo/","dgPassFrontmatter":true,"noteIcon":"1","created":"2025-06-22","updated":"2025-07-25"}
 ---
 
 Ho visto questo film in piazza maggiore, al **Cinema Sotto le Stelle** il 21/06/2025.
 
 Oltre che i colori bellissimi ed estremamente vividi ho adorato tutta l’estetica, i dettagli e le luci degli UFO, il modellino di trenino del protagonista (Roy), l’edificio che si illuminava a ritmo (con le note colorate) della melodia nella base scientifica, lo scienziato francese, la mamma del bimbo, gli alienetti finali.
 
-> 📎 key moment: quando l’alieno verso la fine fa un “nostalgico” gesto con la mano letteralmente TUTTA la piazza (ed era piena) ha riso tantissimo
+> 📎 **key moment**: quando l’alieno verso la fine fa un “nostalgico” gesto con la mano letteralmente TUTTA la piazza (ed era piena) ha riso tantissimo
 
 Il film l’ho trovato abbastanza godibile in generale, con pochi momenti morti (nonostante fossi molto stanca) ma sicuramente per questo andare al cinema aiuta, perché probabilmente non l’avrei mai visto a casa senza socchiudere gli occhi purtroppo…
 
