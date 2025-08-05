@@ -4,22 +4,13 @@
 
 # Il mio Giardino Digitale 🌱
 
-<div class="garden-svg-wrapper">
-    <a class="svg-plant" href="/Homepage" title="Homepage" style="top:61.77126997102757%; left:74.13697804464864%; font-size:2.419524171664823rem; transform: rotate(3deg);" data-icon="2">
-      2
-    </a>
-    <a class="svg-plant" href="/media/film e serie tv/Incontri ravvicinati del terzo tipo" title="Incontri ravvicinati del terzo tipo" style="top:79.91785382313668%; left:38.97340020243743%; font-size:2.040784624703199rem; transform: rotate(10deg);" data-icon="1">
-      1
-    </a>
-    <a class="svg-plant" href="/letture/Libreria" title="Libreria" style="top:2.940995722021591%; left:58.299895649957094%; font-size:1.719500458564858rem; transform: rotate(-2deg);" data-icon="2">
-      2
-    </a>
-    <a class="svg-plant" href="/media/Media" title="Media" style="top:50.24510128788405%; left:48.802143261231784%; font-size:2.4035247476069124rem; transform: rotate(13deg);" data-icon="2">
-      2
-    </a>
-    <a class="svg-plant" href="/media/film e serie tv/Severance" title="Severance" style="top:46.28001381483375%; left:33.051897917633084%; font-size:2.4475263627733277rem; transform: rotate(0deg);" data-icon="3">
-      3
-    </a></div>
+<div><span><div class="garden-svg-wrapper"><a title="Homepage" href="Homepage.md" data-icon="2" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="La fattoria degli animali" href="letture/libri/La fattoria degli animali.md" data-icon="default" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Libreria" href="letture/Libreria.md" data-icon="2" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Incontri ravvicinati del terzo tipo" href="media/film e serie tv/Incontri ravvicinati del terzo tipo.md" data-icon="1" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Severance" href="media/film e serie tv/Severance.md" data-icon="3" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Stray" href="media/videogiochi/Stray.md" data-icon="default" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="Media" href="media/Media.md" data-icon="2" class="svg-plant" target="_blank" rel="noopener nofollow"></a><a title="template libri" href="template/template libri.md" data-icon="default" class="svg-plant" target="_blank" rel="noopener nofollow"></a></div>
+<div class="garden-counts">
+  <span><img class="emoji" draggable="false" alt="🌱" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f331.svg" width="16px" height="16px"></span> Germogli: 1 &nbsp;&nbsp;
+  <span><img class="emoji" draggable="false" alt="🌿" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f33f.svg" width="16px" height="16px"></span> Foglie: 3 &nbsp;&nbsp;
+  <span><img class="emoji" draggable="false" alt="🌸" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f338.svg" width="16px" height="16px"></span> Fiori: 1 &nbsp;&nbsp;
+  <span><img class="emoji" draggable="false" alt="🌳" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f333.svg" width="16px" height="16px"></span> Alberi: 3
+</div></span></div>
 
 Questo sito è un **giardino digitale**: uno spazio vivo e in evoluzione dove raccolgo pensieri, appunti, riflessioni e scoperte.  Non è un blog, né un archivio statico: è un ecosistema di **note interconnesse**, che crescono e si trasformano nel tempo.
 
