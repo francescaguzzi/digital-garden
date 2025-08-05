@@ -6,8 +6,6 @@
 
 <graph />
 
-<Graph>
-
 Questo sito è un **giardino digitale**: uno spazio vivo e in evoluzione dove raccolgo pensieri, appunti, riflessioni e scoperte.  Non è un blog, né un archivio statico: è un ecosistema di **note interconnesse**, che crescono e si trasformano nel tempo.
 
 ---
