@@ -14,22 +14,26 @@
 
 Questo sito è un **giardino digitale**: uno spazio vivo e in evoluzione dove raccolgo pensieri, appunti, riflessioni e scoperte.  Non è un blog, né un archivio statico: è un ecosistema di **note interconnesse**, che crescono e si trasformano nel tempo.
 
+Da tempo mi interesso alla costruzione di una **base di conoscenza** o wiki personale, per tenere traccia dei miei **interessi** e di come si evolvono nel tempo. Utilizzo da anni diverse tecniche di *second brain* per tenere traccia di tutti i miei pensieri e quando mi sono imbattuta nel concetto di giardino digitale ho subito pensato di aver finalmente trovato il *sistema perfetto* per tenere traccia di tutto.
+
 ---
 
-## 🌷 Cos’è un Digital Garden?
+##  🌲 Cos’è un Digital Garden?
 
 Un **digital garden** è un'alternativa ai blog tradizionali: non segue un ordine cronologico, ma cresce organicamente nel tempo. Le sue "pagine" sono note collegate tra loro come in una rete neurale, seguendo l’approccio della **scrittura ramificata**. È uno spazio per **pensare in pubblico**, coltivando concetti, osservazioni e conoscenze che possono maturare con il tempo.
 
-> In altre parole: *non è un prodotto finito, ma un processo visibile*.
+> In altre parole: *non è un prodotto finito, ma un processo visibile* e vagamente caotico
  
 Qui raccolgo:
-
 - idee non finite
 - note personali
 - connessioni tra temi e media (musica, libri, film, videogiochi)
 - riflessioni ricorsive, che si intrecciano nel tempo
 
-È anche un modo per **fare ordine nei miei pensieri**, e magari ispirare qualcuno che passa di qui.
+Più informazioni sui giardini digitali che ho trovato personalmente utili:
+- [A Brief History & Ethos of the Digital Garden](https://maggieappleton.com/garden-history)
+- [I giardini digitali: cosa succede quando il web esce dagli schemi?](https://www.shots.it/news/i-giardini-digitali-cosa-succede-quando-il-web-esce-dagli-schemi)
+- [creating a digital garden to end my doomscrolling](https://youtu.be/0tY7Z53QJo8?si=OP31FLIb2XkgQVVX)
 
 ---
 
@@ -42,17 +46,39 @@ Nel mio sistema ho adottato una simbologia botanica per indicare lo stadio di ma
 - 🌸 **Fiori**: concetti ben articolati, maturi e (quasi) pronti per essere condivisi o pubblicati.
 - 🌳 **Alberi**: hub tematici che collegano e organizzano molte altre note su un determinato argomento.
 
-
 ---
 
-## 🔍 Come orientarsi
+## 📚 Contenuti
+
+I miei *topic di interesse* riguardano principalmente:
+- Videogiochi (prevalentemente indipendenti)
+- Informatica e sviluppo software
+- Telecomunicazioni
+- Fisica 
+- Musica
+- Film e serie tv
+- Libri e saggistica
+- Tematiche sociali
+- Animali
+- Design 
 
 Puoi esplorare per categorie:
-- [[media/Media\|Media]] → musica, videogiochi, film, libri
-- [[idee-future\|idee-future]] → cose che voglio approfondire
-- [[preferiti\|preferiti]] → cose che amo
+- [[media/Media\|Media]] → musica, videogiochi, film
+- [[letture/Libreria\|Libreria]] → libri, articoli e paper
+- [[Idee future\|Idee future]] → cose che voglio approfondire
+- [[Preferiti\|Preferiti]] → cose che amo
 
-Oppure curiosare nel [[Grafo globale\|Grafo globale]].
+Oppure curiosare in giro.
+
+---
+## 💌 Contatti
+
+Per qualsiasi *domanda*, *curiosità* o dubbio la mia mail è francescaguzzi9@gmail.com. 
+
+Altri contatti:
+- 🌐 Il mio *sito web personale* -> francescaguzzi.github.io/portfolio
+- 🐱 Il mio *profilo Github* -> https://github.com/francescaguzzi
+- 👾 Il mio *profilo itch.io* -> https://hydrangeax.itch.io/
 
 ---
 
