@@ -1,9 +1,7 @@
 ---
-{"dg-publish":true,"dg-note-icon":"2","tags":["index"],"dg-show-inline-title":false,"permalink":"/letture/libreria/","dgPassFrontmatter":true,"noteIcon":"2"}
+{"dg-publish":true,"dg-note-icon":"2","tags":["index"],"dg-show-inline-title":true,"permalink":"/letture/libreria/","dgShowInlineTitle":true,"dgPassFrontmatter":true,"noteIcon":"2"}
 ---
 
-# 📚 Libreria
----
 
 | Status   | Cover                                                                                                                    | Title                                                                                                                                                  | Author                               | Publisher                           | Rating |
 | -------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------ | ----------------------------------- | ------ |

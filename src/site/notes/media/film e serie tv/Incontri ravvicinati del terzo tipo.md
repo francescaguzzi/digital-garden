@@ -1,5 +1,5 @@
 ---
-{"dg-created":"2025-06-22","dg-edited":"2025-07-25","dg-publish":true,"tags":["recensione","film","fantascienza"],"dg-note-icon":"1","permalink":"/media/film-e-serie-tv/incontri-ravvicinati-del-terzo-tipo/","dgPassFrontmatter":true,"noteIcon":"1","created":"2025-06-22","updated":"2025-07-25"}
+{"dg-created":"2025-06-22","dg-edited":"2025-07-25","dg-publish":true,"tags":["recensione","film","fantascienza"],"dg-note-icon":"1","dg-show-inline-title":true,"permalink":"/media/film-e-serie-tv/incontri-ravvicinati-del-terzo-tipo/","dgShowInlineTitle":true,"dgPassFrontmatter":true,"noteIcon":"1","created":"2025-06-22","updated":"2025-07-25"}
 ---
 
 Ho visto questo film in piazza maggiore, al **Cinema Sotto le Stelle** il 21/06/2025.
