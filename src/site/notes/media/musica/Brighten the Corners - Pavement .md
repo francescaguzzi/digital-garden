@@ -1,5 +1,5 @@
 ---
-{"title":"Brighten the Corners","artists":"Pavement","year":1997,"genres":"alternative rock,indie rock,lo-fi,pop,rock","image":"https://coverartarchive.org/release-group/071af447-389f-360d-aced-1d0ae3e0d5ec/front","rating":8.4,"type":"musicRelease","subtype":"Album","dg-show-inline-title":false,"dg-publish":true,"tags":["musica"],"personalRating":"⭐⭐⭐⭐","ascoltato":"2024-01-04","id":"071af447-389f-360d-aced-1d0ae3e0d5ec","dataSource":"MusicBrainz API","permalink":"/media/musica/brighten-the-corners-pavement/","dgPassFrontmatter":true,"noteIcon":""}
+{"title":"Brighten the Corners","artists":"Pavement","year":1997,"genres":"alternative rock,indie rock,lo-fi,pop,rock","image":"https://coverartarchive.org/release-group/071af447-389f-360d-aced-1d0ae3e0d5ec/front","rating":8.4,"type":"musicRelease","subtype":"Album","dg-show-inline-title":false,"dg-publish":true,"dg-note-icon":"1","tags":["musica"],"personalRating":"⭐⭐⭐⭐","ascoltato":"2024-01-04","id":"071af447-389f-360d-aced-1d0ae3e0d5ec","dataSource":"MusicBrainz API","permalink":"/media/musica/brighten-the-corners-pavement/","dgPassFrontmatter":true,"noteIcon":"1"}
 ---
 
 
