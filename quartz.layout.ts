@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import AlbumGallery from "./quartz/components/AlbumGallery"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -10,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       Quartz: "https://github.com/jackyzha0/quartz",
       Github: "https://github.com/francescaguzzi",
-      Portfolio: "https://francescaguzzi.github.io/portfolio/",
+      Portfolio: "https://francescaguzzi.github.io/portfolio",
     },
   }),
 }
@@ -25,6 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    AlbumGallery(),
   ],
   left: [
     Component.PageTitle(),
