@@ -5,14 +5,13 @@ export default (() => {
   const AlbumGallery: QuartzComponent = ({ allFiles, fileData }: QuartzComponentProps) => {
 
     // 1. Controllo: mostra solo nella pagina indice della collezione
-    if (fileData.slug !== "album-collection/index") {
+    if (fileData.slug !== "album collection/raccolta musicale") {
       return <></>
     }
 
     // 2. Filtra i file
     const albums = allFiles.filter((file) => 
-      file.slug?.startsWith("album-collection/") && 
-      file.slug !== "album-collection/index" &&
+      file.slug?.startsWith("album collection/") && 
       file.frontmatter
     )
 
