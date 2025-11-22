@@ -4,4 +4,4 @@ title: homepage
 🌱 ciaooooo
 
 
-vedi [[raccolta musicale]]
+vedi [[raccolta-musicale]]
