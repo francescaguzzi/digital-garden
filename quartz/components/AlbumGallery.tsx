@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import style from "./styles/AlbumGallery.scss"
+import style from "./styles/albumgallery.scss"
 import { resolveRelative } from "../util/path"
 
 export default (() => {
