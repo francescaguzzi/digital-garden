@@ -74,10 +74,8 @@
     margin-top: auto; /* Spinge i metadati in fondo alla card */
 
     .rating {
-        font-weight: normal; /* Le emoji non hanno bisogno di grassetto */
-        font-size: 1rem;     /* Le facciamo leggermente più grandi del testo */
+        font-weight: 600;
         margin-bottom: 0.2rem;
-        letter-spacing: 2px; /* Dà un po' di respiro tra le stelline */
     }
 
     .date {

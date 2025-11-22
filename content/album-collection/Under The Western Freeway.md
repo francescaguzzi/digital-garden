@@ -9,7 +9,5 @@ listened_to: false
 rating:
 release_date: October 21, 1997
 ---
+![cover|100](https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Under_the_Western_Freeway_-_Grandaddy.jpg/220px-Under_the_Western_Freeway_-_Grandaddy.jpg)
 
-# Under The Western Freeway
-
-![cover|400](https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Under_the_Western_Freeway_-_Grandaddy.jpg/220px-Under_the_Western_Freeway_-_Grandaddy.jpg)
