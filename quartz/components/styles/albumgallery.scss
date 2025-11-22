@@ -1,6 +1,6 @@
 .album-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); // Leggermente più largo
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -8,16 +8,17 @@
 .album-card {
   display: flex;
   flex-direction: column;
-  text-decoration: none; // Rimuove la sottolineatura del link
+  text-decoration: none;
   color: inherit;
   transition: transform 0.2s ease;
   border-radius: 8px;
   overflow: hidden;
+  height: 100%; // Per allineare le card
   
   &:hover {
     transform: translateY(-5px);
     
-    .album-info {
+    .album-info strong {
       color: var(--secondary);
     }
   }
@@ -29,13 +30,14 @@
   background: var(--lightgray);
   border-radius: 8px;
   overflow: hidden;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin: 0; // Sovrascrive margini default di Quartz
+    margin: 0;
     display: block;
   }
 }
@@ -43,15 +45,42 @@
 .album-info {
   text-align: center;
   font-size: 0.9rem;
-  line-height: 1.2;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
   
   strong {
     display: block;
-    margin-bottom: 0.2rem;
+    font-weight: 700;
   }
   
-  span {
-    font-size: 0.8rem;
+  .artist {
+    font-size: 0.85rem;
     color: var(--gray);
+    font-style: italic;
+    margin-bottom: 0.5rem;
   }
+}
+
+/* Nuovi stili per i metadati (Voto e Data) */
+.meta-data {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem; /* Testo più piccolo */
+    color: var(--darkgray);
+    border-top: 1px solid var(--lightgray);
+    padding-top: 0.5rem;
+    margin-top: auto; /* Spinge i metadati in fondo alla card */
+
+    .rating {
+        font-weight: normal; /* Le emoji non hanno bisogno di grassetto */
+        font-size: 1rem;     /* Le facciamo leggermente più grandi del testo */
+        margin-bottom: 0.2rem;
+        letter-spacing: 2px; /* Dà un po' di respiro tra le stelline */
+    }
+
+    .date {
+        opacity: 0.8;
+    }
 }

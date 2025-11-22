@@ -1,21 +1,19 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import style from "./styles/albumgallery.scss"
+import style from "./styles/AlbumGallery.scss"
+import { resolveRelative } from "../util/path"
 
 export default (() => {
   const AlbumGallery: QuartzComponent = ({ allFiles, fileData }: QuartzComponentProps) => {
 
-    // 1. Controllo: mostra solo nella pagina indice della collezione
     if (fileData.slug !== "raccolta-musicale") {
       return <></>
     }
 
-    // 2. Filtra i file
     const albums = allFiles.filter((file) => 
       file.slug?.startsWith("album-collection/") && 
       file.frontmatter
     )
 
-    // 3. Ordina per data
     albums.sort((a, b) => {
       const valA = a.frontmatter?.listened_on as string | undefined
       const valB = b.frontmatter?.listened_on as string | undefined
@@ -27,8 +25,6 @@ export default (() => {
     return (
       <div class="album-gallery">
         {albums.map((album) => {
-          // CORREZIONE QUI: Forziamo il tipo "string" con "as string"
-          // Questo dice a TypeScript: "Fidati, questi sono testi, non oggetti strani"
           const fName = album.frontmatter?.name as string | undefined
           const fTitle = album.frontmatter?.title as string | undefined
           const title = fName || fTitle || "Senza Titolo"
@@ -36,7 +32,27 @@ export default (() => {
           const cover = album.frontmatter?.cover_image as string | undefined
           const artist = (album.frontmatter?.artist as string) || "Artista Sconosciuto"
           
-          const link = `/${album.slug}`
+          // --- NUOVE AGGIUNTE ---
+          
+          // 1. Recuperiamo il rating (Voto)
+          // Se è numerico o stringa va bene, mettiamo un fallback se manca
+          const rating = album.frontmatter?.rating ?? "-"
+
+          // 2. Recuperiamo e formattiamo la data
+          const listenedRaw = album.frontmatter?.listened_on as string | undefined
+          let dateDisplay = ""
+          
+          if (listenedRaw) {
+            // Creiamo la data e la formattiamo in stile Italiano (giorno/mese/anno)
+            const d = new Date(listenedRaw)
+            dateDisplay = d.toLocaleDateString("it-IT", {
+              day: "numeric",
+              month: "short", // Usa "short" per 'nov', "long" per 'novembre', "numeric" per '11'
+              year: "numeric"
+            })
+          }
+
+          const link = resolveRelative(fileData.slug!, album.slug!)
 
           return (
             <a href={link} class="album-card">
@@ -49,7 +65,16 @@ export default (() => {
               </div>
               <div class="album-info">
                 <strong>{title}</strong>
-                <span>{artist}</span>
+                <span class="artist">{artist}</span>
+                
+                {/* Nuova sezione Meta Dati */}
+                <div class="meta-data">
+                    <span class="rating"> Voto: {rating}</span>
+                    {dateDisplay && (
+                        <span class="date">Ascoltato il: {dateDisplay}</span>
+                    )}
+                </div>
+
               </div>
             </a>
           )
