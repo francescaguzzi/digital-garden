@@ -1,4 +1,4 @@
 ---
-title: raccolta di album musicali
+title: Album Collection
 ---
 boooooo
