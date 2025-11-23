@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("album collection")
+    - file.inFolder("music collection")
 views:
   - type: table
     name: Table

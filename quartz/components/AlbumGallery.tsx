@@ -10,7 +10,7 @@ export default (() => {
     }
 
     const albums = allFiles.filter((file) => 
-      file.slug?.startsWith("album-collection/") && 
+      file.slug?.startsWith("music-collection/") && 
       file.frontmatter
     )
 
