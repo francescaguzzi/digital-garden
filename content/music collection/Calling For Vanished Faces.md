@@ -12,7 +12,3 @@ listened_to: true
 rating: ⭐⭐⭐
 release_date:
 ---
-
-# Calling For Vanished Faces
-
-![cover|400](https://assets.boomkat.com/spree/products/252242/large/original.jpg)

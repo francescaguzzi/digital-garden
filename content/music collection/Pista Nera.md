@@ -12,7 +12,3 @@ listened_to: true
 rating: ⭐⭐⭐⭐
 release_date: November 22, 2024
 ---
-
-# Pista Nera
-
-![cover|400](https://f4.bcbits.com/img/a2552430330_16.jpg)

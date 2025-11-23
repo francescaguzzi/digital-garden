@@ -9,7 +9,3 @@ listened_to: false
 rating:
 release_date: May 3, 2010
 ---
-
-# Dark Night of The Soul
-
-![cover|400](https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Dark_Night_Final.jpg/220px-Dark_Night_Final.jpg)

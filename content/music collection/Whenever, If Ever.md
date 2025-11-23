@@ -13,5 +13,3 @@ listened_to: true
 rating: ⭐⭐⭐
 release_date: June 18, 2013
 ---
-![cover|100](https://upload.wikimedia.org/wikipedia/en/3/31/The_World_Is_A_Beautiful_Place_%26_I_Am_No_Longer_Afraid_To_Die_Whenever%2C_If_Ever.png)
-

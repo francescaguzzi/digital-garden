@@ -13,7 +13,3 @@ listened_to: true
 rating: 💗💗💗💗💗
 release_date: August 30, 2019
 ---
-
-# Norman Fucking Rockwell!
-
-![cover|400](https://www.merchandisingplaza.com/462096/2/Dischi-Vinile-Lana-Del-Rey-Vinile-Lana-Del-Rey---Norman-Fucking-Rockwell--2-Lp--l.jpg)

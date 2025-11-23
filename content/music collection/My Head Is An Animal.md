@@ -12,7 +12,3 @@ listened_to: true
 rating: 💗💗💗💗💗
 release_date: September 20, 2011
 ---
-
-# My Head Is An Animal
-
-![cover|400](https://upload.wikimedia.org/wikipedia/en/0/07/My_Head_Is_An_Animal.jpg)

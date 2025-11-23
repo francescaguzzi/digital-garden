@@ -12,7 +12,3 @@ listened_to: true
 rating: ⭐⭐⭐⭐
 release_date: February 2, 2024
 ---
-
-# Rat Taxi
-
-![cover|400](https://f4.bcbits.com/img/a3758298176_16.jpg)

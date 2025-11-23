@@ -11,7 +11,3 @@ listened_to: true
 rating: ⭐⭐⭐
 release_date: May 7, 2021
 ---
-
-# pigeon, too!
-
-![cover|400](https://f4.bcbits.com/img/a2060257876_16.jpg)

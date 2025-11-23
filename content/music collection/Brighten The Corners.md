@@ -9,7 +9,3 @@ listened_to: true
 rating: ⭐⭐⭐⭐
 release_date: February 11, 1997
 ---
-
-# Brighten The Corners
-
-![cover|400](https://upload.wikimedia.org/wikipedia/en/c/c7/BrightentheCorners.jpg)

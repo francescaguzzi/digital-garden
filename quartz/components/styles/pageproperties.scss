@@ -1,0 +1,44 @@
+.page-properties {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-code); /* Usa un font tecnico per le proprietà */
+  font-size: 0.85rem;
+  background-color: var(--lightgray);
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid var(--lightgray);
+}
+
+.properties-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.property-item {
+  display: grid;
+  grid-template-columns: 120px 1fr; /* La chiave è fissa a 120px, il valore si espande */
+  align-items: baseline;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  padding-bottom: 0.2rem;
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+.property-key {
+  color: var(--darkgray);
+  font-weight: 600;
+  text-transform: capitalize; /* Rende la prima lettera maiuscola (rating -> Rating) */
+  opacity: 0.8;
+}
+
+.property-value {
+  color: var(--dark);
+  word-break: break-word; /* Manda a capo se il testo è lunghissimo */
+}

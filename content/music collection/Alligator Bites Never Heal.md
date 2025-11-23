@@ -9,7 +9,3 @@ listened_to: true
 rating: ⭐⭐⭐⭐⭐
 release_date: August 30, 2024
 ---
-
-# Alligator Bites Never Heal
-
-![cover|400](https://upload.wikimedia.org/wikipedia/en/b/bd/Doechii_-_Alligator_Bites_Never_Heal.png)

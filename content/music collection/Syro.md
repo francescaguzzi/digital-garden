@@ -11,7 +11,3 @@ listened_to: true
 rating: ⭐⭐⭐⭐
 release_date: September 19, 2014
 ---
-
-# Syro
-
-![cover|400](https://f4.bcbits.com/img/a2665747684_16.jpg)

@@ -12,7 +12,3 @@ listened_to: true
 rating: ⭐⭐⭐
 release_date: December 31, 2022
 ---
-
-# Songs Before Bed
-
-![cover|400](https://f4.bcbits.com/img/a3523833494_10.jpg)

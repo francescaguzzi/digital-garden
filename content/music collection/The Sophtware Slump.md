@@ -11,7 +11,3 @@ listened_to: true
 rating: 💗💗💗💗💗
 release_date: May 29, 2000
 ---
-
-# The Sophtware Slump
-
-![cover|400](https://upload.wikimedia.org/wikipedia/en/e/e0/TheSophtwareSlumpCover.jpg)

@@ -13,7 +13,3 @@ listened_to: true
 rating: ⭐⭐⭐⭐⭐
 release_date: June 3, 2008
 ---
-
-# Fleet Foxes
-
-![cover|400](https://upload.wikimedia.org/wikipedia/en/0/01/Fleet_foxes.jpg)

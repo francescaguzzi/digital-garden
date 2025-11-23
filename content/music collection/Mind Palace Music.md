@@ -11,7 +11,3 @@ listened_to: true
 rating: ⭐⭐⭐
 release_date: February 17, 2023
 ---
-
-# Mind Palace Music
-
-![cover|400](https://f4.bcbits.com/img/a4039527842_16.jpg)

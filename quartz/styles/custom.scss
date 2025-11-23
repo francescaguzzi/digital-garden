@@ -2,35 +2,50 @@
 
 @use "themes";
 
+/* Centra le immagini standard */
+img {
+  display: block !important; /* Trasforma l'immagine in un blocco */
+  margin: 1.5rem auto !important; /* Auto ai lati la centra, 1.5rem sopra/sotto dà respiro */
+  max-width: 100%; /* Evita che l'immagine esca dallo schermo su mobile */
+  height: auto;    /* Mantiene le proporzioni */
+}
+
+/* Centra i contenitori delle immagini (Figure) e le didascalie */
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0; /* Spazio verticale intorno all'immagine */
+  width: 100%;
+}
+
+/* Centra le didascalie (se ne usi) */
+figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--darkgray); /* Un grigio scuro elegante */
+  font-style: italic;
+  margin-top: 0.5rem;
+  font-family: var(--font-medium-style); /* Usa lo stesso font del resto */
+}
+
+/* Centra gli embed specifici di Obsidian (immagini incollate) */
+.image-embed {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 /* ===============================================
-   STYLE OVERRIDE
+   HIDE DATAVIEW CODE BLOCKS
+   Nasconde i blocchi di codice grezzo generati da Obsidian
    =============================================== */
 
-:root {
-  --font-medium-style: "Charter", "Bitstream Charter", "Sitka Text", "Cambria", "Georgia", "Times New Roman", serif;
-}
-
-body, 
-#quartz-body,
-p, ul, ol, li, 
-h1, h2, h3, h4, h5, h6,
-.page-title,
-.callout {
-  font-family: var(--font-medium-style) !important;
-}
-
-p, li {
-  font-size: 1.15rem !important; 
-  line-height: 1.6 !important;   
-  color: #292929 !important;     
-}
-
-h1, h2, h3 {
-  font-family: var(--font-medium-style) !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.02em !important; 
-}
-
-code, pre {
-  font-family: "Fira Code", monospace !important;
+/* Selettore per nascondere il contenitore del codice DataviewJS */
+figure[data-rehype-pretty-code-figure]:has(code[data-language="dataviewjs"]),
+figure[data-rehype-pretty-code-figure]:has(code[data-language="dataview"]),
+pre:has(code.language-dataviewjs),
+pre:has(code.language-dataview) {
+  display: none !important;
 }
