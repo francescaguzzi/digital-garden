@@ -3,6 +3,11 @@ import style from "./styles/pageproperties.scss"
 
 export default (() => {
   const PageProperties: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
+    
+    if (!fileData.slug?.startsWith("album-collection/")) {
+      return null
+    }
+    
     const opts = fileData.frontmatter
     if (!opts) return null
 
@@ -16,7 +21,8 @@ export default (() => {
       "draft", 
       "cssclasses",
       "cover_image", 
-      "enableToc"
+      "enableToc",
+      "modified"
     ])
 
     // Filtriamo le proprietà
