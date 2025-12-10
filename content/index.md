@@ -8,7 +8,8 @@ This is my personal 🌱 **digital garden** 🌱, an attempt to join the indie w
 
 > A digital garden is a collection of imperfect notes, essays, and ideas growing slowly over time. Evolving ideas that aren’t strictly organised by their publication date. They’re inherently exploratory – notes are linked through contextual associations. They aren’t refined or complete - notes are published as half-finished thoughts that will grow and evolve over time. They’re less rigid, less performative, and less perfect than the personal websites we’re used to seeing. [^1]
 
-![gg|300](https://i.pinimg.com/1200x/25/d3/19/25d319667db41101f8d2dbc58c909bfc.jpg)
+
+![[iii.webp|100]]
 
 As soon as i stumbled upon [this video](https://www.youtube.com/watch?v=0tY7Z53QJo8) on Youtube, something clicked inside me and I felt the urge to start my own digital garden too. 
 
@@ -38,6 +39,8 @@ I'm a big fan of cool note taking and mind maps, so when I discovered [Obsidian]
 
 This garden will, more or less, have a very flexible structure. I get curios about a huge variety of topics, so I don't know precisely how this will turn out. 
 
+![[pllp.webp|120]]
+
 The notes can be classified based on their "*maturity*", and might be changed/improved over time. We have:
 
 - The **sprouts** 🌱  
@@ -56,8 +59,6 @@ The notes can be classified based on their "*maturity*", and might be changed/im
 	- Leaves are notes/topics that are an end in themselves. For example rough ideas that were discarded after or small topics that don't need further exploration.
 
 The interlinks between each note will resemble the **roots** of this garden, connecting each idea.
-
-![leafes|300](https://i.pinimg.com/1200x/7c/6d/0c/7c6d0c78dfaa5cf2410496ed354b9227.jpg)
 ## Garden Topics
 
 The topics of this garden, as I said before, will be various and messy. 
@@ -76,16 +77,13 @@ In there you can find:
 
 I'm a 23 years-old girl from Italy, a wannabe game developer and a computer science and engineering student. 
 
-![[sticker7.webp|200]]
+![[sticker7.webp|130]]
 
 I really am enthusiast about music, astronomy, nature and animals, physics, computer programming, art and design. But as i get easily distracted, it's difficult for me to focus for an extended amount of time on one thing only (that's another reason for which i'm developing this garden). 
-
-![bibi|100](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aW15NGlndGcyNDlqbzVreXA4a25tZ3VidWVwdHlwdHRzeG03aG4ybiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/2k20U6m5zKTBKduiJa/giphy.gif)
 ## Contacts
 
 You can find my [portfolio/CV](https://francescaguzzi.github.io/portfolio/) here, my [Github profile](https://github.com/francescaguzzi) here and if you have any questions/doubts or simply want to chat feel free to contact me at my email: francescaguzzi9@gmail.com 
 
----
 
 [^1]: "A Brief History & Ethos of the Digital Garden" https://maggieappleton.com/garden-history
 

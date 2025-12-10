@@ -1,6 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import AlbumGallery from "./quartz/components/AlbumGallery"
+import BookGallery from "./quartz/components/BookGallery"
 import PageProperties from "./quartz/components/PageProperties"
 
 // components shared across all pages
@@ -28,6 +29,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
     PageProperties(),
     AlbumGallery(),
+    BookGallery(),
   ],
   left: [
     Component.PageTitle(),
@@ -43,6 +45,9 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.RecentNotes({ limit: 5, filter: (page) => {
+      const tags = page.frontmatter?.tags || []
+      return tags.includes("seedling") || tags.includes("plant")}}),
   ],
   right: [
     Component.Graph(),
