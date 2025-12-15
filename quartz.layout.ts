@@ -48,7 +48,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    Divider({ image: "/static/assets/totoro.gif", margin: "0.5rem 0" }),
+    Component.DesktopOnly(Divider({ image: "/static/assets/totoro.gif", margin: "0.5rem 0" })),
     Component.DesktopOnly(
       Component.RecentNotes({ limit: 5, filter: (page) => {
         const tags = page.frontmatter?.tags || []
