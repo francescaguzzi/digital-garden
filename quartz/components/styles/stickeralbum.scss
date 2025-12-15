@@ -1,0 +1,96 @@
+/* .sticker-container {
+  display: flex;
+  flex-wrap: wrap;       // Permette agli sticker di andare a capo 
+  justify-content: center; // Li centra nella pagina 
+  gap: 20px;             // Spazio tra uno e l'altro
+  margin: 2rem 0;
+  padding: 20px;
+  background-color: var(--lightgray); // Opzionale: sfondo leggero per l'album
+  border-radius: 12px;
+}
+
+.sticker-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+  border: none !important;
+  background: transparent !important;
+  
+  // Dimensione base dello sticker
+  width: 100px; 
+  height: 100px;
+  
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); // Effetto rimbalzo
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2) rotate(5deg); // Si ingrandisce e ruota un po' al passaggio 
+    z-index: 10;
+  }
+
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important; // Mantiene le proporzioni e la trasparenza
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important; // Niente ombre quadrate per i PNG trasparenti
+    filter: drop-shadow(0 4px 3px rgba(0,0,0,0.2)); // Ombra sagomata attorno al PNG
+  }
+} */
+
+.sticker-container {
+  display: flex;
+  flex-wrap: wrap;       /* A capo automatico */
+  justify-content: center; /* Centrati orizzontalmente */
+  align-items: center;     /* Centrati verticalmente (fondamentale se hanno altezze diverse) */
+  gap: 25px;               /* Un po' più di spazio per farli respirare */
+  margin: 2rem 0;
+  padding: 20px;
+  background-color: var(--lightgray);  
+  border-radius: 12px;
+}
+
+.sticker-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+  border: none !important;
+  background: transparent !important;
+  
+  /* --- MODIFICA QUI: Dimensioni Naturali --- */
+  width: auto;  /* Si adatta alla larghezza dell'immagine */
+  height: auto; /* Si adatta all'altezza dell'immagine */
+  
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.15) rotate(3deg); /* Effetto pop-up */
+    z-index: 10;
+  }
+
+  img {
+    /* --- REGOLE PER MANTENERE PROPORZIONI --- */
+    width: auto !important;
+    height: auto !important;
+    
+    /* Limite di sicurezza: gli sticker non diventeranno più alti di 150px */
+    /* Se vuoi che siano enormi, aumenta questo valore o mettilo a 'none' */
+    max-height: 150px !important; 
+    
+    object-fit: contain !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    
+    /* Ombra che segue il contorno del PNG trasparente */
+    filter: drop-shadow(0 5px 4px rgba(0,0,0,0.2)); 
+  }
+}

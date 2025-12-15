@@ -2,6 +2,8 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import AlbumGallery from "./quartz/components/AlbumGallery"
 import BookGallery from "./quartz/components/BookGallery"
+import StickerAlbum from "./quartz/components/StickerAlbum"
+import Divider from "./quartz/components/Divider"
 import PageProperties from "./quartz/components/PageProperties"
 
 // components shared across all pages
@@ -30,6 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
     PageProperties(),
     AlbumGallery(),
     BookGallery(),
+    StickerAlbum(),
   ],
   left: [
     Component.PageTitle(),
@@ -45,12 +48,14 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Divider({ image: "/static/assets/totoro.gif", margin: "0.5rem 0" }),
     Component.RecentNotes({ limit: 5, filter: (page) => {
       const tags = page.frontmatter?.tags || []
       return tags.includes("seedling") || tags.includes("plant")}}),
   ],
   right: [
     Component.Graph(),
+    Divider({ image: "/static/assets/totorooo.gif" }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

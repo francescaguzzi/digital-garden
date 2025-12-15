@@ -1,7 +1,7 @@
 ---
 title: Welcome
 ---
-This is my personal 🌱 **digital garden** 🌱, an attempt to join the indie web and go back to the origins of the Internet as well as keeping track of my thoughts, movies, books and everything. 
+Hi! 🤍 I'm Francesca and this is my personal 🌱 **digital garden** 🌱, an attempt to join the indie web and go back to the origins of the Internet as well as keeping track of my thoughts, movies, books and everything. 
 
 ---
 # About Digital Gardens

@@ -1,5 +1,17 @@
 @use "./base.scss";
 
+/* 1. Cursore di Base (su tutta la pagina) */
+html, body {
+  /* Sintassi: url('percorso'), keyword-fallback */
+  cursor: url('/static/Default.cur'), auto !important;
+}
+
+/* 2. Cursore Interattivo (quando passi su link, bottoni, card) */
+a, button, .clickable, .sticker-item, .album-card, .book-card {
+  /* Puoi usare lo stesso cursore o uno diverso, es: 'cursore-active.png' */
+  cursor: url('/static/Link Select.cur'), pointer !important;
+}
+
 /* p {
   font-size: 1.1rem;      // Testo leggermente più grande 
   line-height: 1.6;       // Più spazio tra le righe per leggibilità 
