@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "francescaguzzi.github.io/digital-garden",
+    baseUrl: "www.fragolite.online",
     ignorePatterns: ["private", "template", ".obsidian"],
     defaultDateType: "modified",
     theme: {
