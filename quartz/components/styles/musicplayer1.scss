@@ -1,0 +1,61 @@
+.simple-player-wrapper {
+  position: relative;
+  /* Aumentiamo la larghezza totale per contenere copertina + CD che esce */
+  width: 300px; 
+  /* Aumentiamo l'altezza */
+  height: 200px;
+  /* Riduciamo il margine superiore (da 1.5rem a 0.5rem) per alzarlo nella pagina */
+  margin: 0.5rem auto 1.5rem auto; 
+  cursor: pointer;
+  user-select: none; 
+}
+
+/* La Copertina dell'album - RADDOPPIATA */
+.album-cover-img {
+  position: relative;
+  width: 150px;  /* Era 100px */
+  height: 150px; /* Era 100px */
+  background-color: black;
+  z-index: 10;
+  border-radius: 4px; /* Arrotondamento leggermente più grande */
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3); /* Ombra più marcata per la nuova dimensione */
+  object-fit: cover;
+  display: block;
+}
+
+/* Il Disco (CD) - RADDOPPIATO E CENTRATO */
+.cd-disk-img {
+  position: absolute;
+  
+  /* --- CENTRATURA VERTICALE MATEMATICA --- */
+  /* Copertina (200px) - CD (180px) = 20px di differenza. */
+  /* Dividiamo per 2 per avere lo spazio sopra e sotto: 10px. */
+  bottom: 32px;   
+  
+  /* Posizione iniziale orizzontale: lo facciamo partire nascosto per metà */
+  left: 80px; 
+  
+  width: 150px;  /* Era 90px */
+  height: 150px; /* Era 90px */
+  z-index: 5;
+  
+  /* Transizione fluida per l'uscita */
+  transition: left 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+}
+
+/* Classe aggiunta dallo script quando suona */
+.is-spinning {
+  animation: spin 3s linear infinite;
+}
+
+/* --- EFFETTO HOVER AGGIORNATO --- */
+/* Quando passi sopra, il CD esce di più verso destra */
+.simple-player-wrapper:hover .cd-disk-img {
+  left: 100px; /* Aumentiamo l'uscita */
+}
+
+/* Definizione animazione rotazione */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

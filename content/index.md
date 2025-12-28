@@ -1,7 +1,7 @@
 ---
 title: Welcome
 ---
-Hi! 🤍 I'm Francesca and this is my personal 🌱 **digital garden** 🌱, an attempt to join the indie web and go back to the origins of the Internet as well as keeping track of my thoughts, movies, books and everything. 
+Hi! 🤍 I'm Francesca and this is my personal 🌱 **digital garden** 🌱, an attempt to join the indie web and go back to the origins of the Internet as well as keeping track of my thoughts, ideas, movies, books and everything. 
 
 ---
 # About Digital Gardens
@@ -15,9 +15,9 @@ As soon as i stumbled upon [this video](https://www.youtube.com/watch?v=0tY7Z53Q
 
 Ever since I was 5 I'd always enjoy surfing the web, link hopping on Wikipedia and finding hidden gems on the Internet. No surprise I'm a computer science student now! 
 
-But recently, with social networks becoming more and more *polluted* with ads, AI, and payed contents and less focused on connecting with whom you love and their interests, I started to feel demotivated, absorbed by **an infinite loop of doom-scrolling** in nonsense contents. But I have to say, on social networks I always find amazing things: facts, art, interesting bit of knowledge I always thought would remain in my brain. But it is not as easy as it seems. 
+But recently, with social networks becoming more and more *polluted* with ads, AI, and payed contents and less focused on connecting with whom you love and their interests, I started to feel demotivated, absorbed by **an infinite loop of doom-scrolling** in nonsense contents. But I have to say, on social networks I've always found amazing things: facts, art, interesting bits of knowledge I always thought would remain in my brain. But it is not as easy as it seems. 
 
-In fact, this way of fruiting content only makes the brain **passive** and not capable of remembering any of this information: we need to write, take notes, discuss every tiny bit of knowledge that makes us feel stimulated within our interests. 
+In fact, this way of fruiting content only makes the brain **passive** and not capable of remembering any of this information: we need to write, take notes, discuss every thing that makes us feel stimulated within our interests. 
 
 And that's why I decided to go **against this algorithm**. End this infinite loop by cultivating my own little piece of the web. 
 

@@ -4,6 +4,7 @@ import AlbumGallery from "./quartz/components/AlbumGallery"
 import BookGallery from "./quartz/components/BookGallery"
 import StickerAlbum from "./quartz/components/StickerAlbum"
 import Divider from "./quartz/components/Divider"
+import MusicPlayer1 from "./quartz/components/MusicPlayer1"
 import PageProperties from "./quartz/components/PageProperties"
 
 // components shared across all pages
@@ -57,6 +58,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Graph(),
     Divider({ image: "/static/assets/totorooo.gif" }),
+    Component.DesktopOnly(MusicPlayer1()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
