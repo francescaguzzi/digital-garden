@@ -7,7 +7,7 @@ html, body {
 }
 
 /* 2. Cursore Interattivo (quando passi su link, bottoni, card) */
-a, button, .clickable, .sticker-item, .album-card, .book-card {
+a, button, .clickable, .sticker-item, .album-card, .book-card, .simple-player-wrapper, .gallery-item img {
   /* Puoi usare lo stesso cursore o uno diverso, es: 'cursore-active.png' */
   cursor: url('/static/Link Select.cur'), pointer !important;
 }
@@ -16,3 +16,44 @@ a, button, .clickable, .sticker-item, .album-card, .book-card {
   font-size: 1.1rem;      // Testo leggermente più grande 
   line-height: 1.6;       // Più spazio tra le righe per leggibilità 
 } */
+
+/* ===============================================
+   PHOTO ALBUM (MASONRY LAYOUT)
+   =============================================== */
+
+.photo-grid {
+  /* Divide lo spazio in colonne (stile Pinterest) */
+  column-count: 3; 
+  column-gap: 15px; /* Spazio tra le colonne */
+  width: 100%;
+  margin-top: 2rem;
+
+  /* Per i paragrafi che Markdown crea automaticamente attorno alle immagini */
+  p {
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Fondamentale per non rompere la griglia */
+    width: 100%;
+  }
+
+  img {
+    width: 100% !important; /* Occupa tutta la larghezza della colonna */
+    height: auto !important; /* Mantiene le proporzioni */
+    display: block;
+    border-radius: 1px; /* Angoli arrotondati */
+    margin-bottom: 15px; /* Spazio sotto ogni foto */
+    
+    /* Evita che una foto venga tagliata a metà tra due colonne */
+    break-inside: avoid; 
+    
+    /* Effetti estetici */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.02); /* Leggero zoom quando passi sopra */
+      z-index: 2;
+    }
+  }
+}
