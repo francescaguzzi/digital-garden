@@ -51,7 +51,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
     Component.DesktopOnly(Divider({ image: "/static/assets/totoro.gif", margin: "0.5rem 0" })),
     Component.DesktopOnly(
-      Component.RecentNotes({ limit: 5, filter: (page) => {
+      Component.RecentNotes({ limit: 3, filter: (page) => {
         const tags = page.frontmatter?.tags || []
         return tags.includes("seedling") || tags.includes("plant")}})),
   ],

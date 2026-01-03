@@ -4,7 +4,7 @@ tags:
   - music
 cover_image: https://m.media-amazon.com/images/I/71i1-SdFBRL._UF1000,1000_QL80_.jpg
 artist: Banco Del Mutuo Soccorso
-rating: ⭐⭐⭐
+rating: ⭐⭐
 listened_on: 2025-12-12
 listened_to: true
 genres:
@@ -20,7 +20,7 @@ link:
   </div>
   <div style="font-size: 0.95rem; line-height: 1.5; width: 100%;">
     <strong style="opacity: 0.7;">Artista:</strong> Banco Del Mutuo Soccorso<br>
-    <strong style="opacity: 0.7;">Voto:</strong> ⭐⭐⭐<br>
+    <strong style="opacity: 0.7;">Voto:</strong> ⭐⭐<br>
     <strong style="opacity: 0.7;">Ascoltato:</strong> 2025-12-12<br>
     <strong style="opacity: 0.7;">Generi:</strong> concept-album, rock, progressive-rock<br>
     <a href="#" style="text-decoration: none; display: inline-block; margin-top: 5px;">🎧 <strong>Ascolta ora</strong></a>
