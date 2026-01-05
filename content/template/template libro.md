@@ -32,6 +32,5 @@ const date = tp.frontmatter.date_read || "-";
     <strong>Finished in date:</strong> <% date %>
   </div>
 </div>
-
 ---
-# Thoughts
+
