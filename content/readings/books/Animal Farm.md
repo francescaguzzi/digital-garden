@@ -1,23 +1,20 @@
 ---
 date: 2025-07-30
 author: George Orwell
-cover: http://books.google.com/books/content?id=lRJoEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+cover: https://m.media-amazon.com/images/I/71JUJ6pGoIL.jpg
 date_started: 2025-07-27
 date_finished: 2025-07-29
 status:
   - finished
 tags:
   - book
-  - rating
-  - leaf
+  - tree
 title: Animal Farm
 date_read: 2025-07-29
 ---
-
-
 <div style="background-color: var(--background-secondary); border: 1px solid var(--background-modifier-border); border-radius: 8px; padding: 15px; display: flex; align-items: start; gap: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px;">
   <div style="flex-shrink: 0; width: 100px;">
-    <img src="http://books.google.com/books/content?id=lRJoEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" style="width: 100% !important; aspect-ratio: 2/3; border-radius: 4px; object-fit: cover; margin: 0 !important; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <img src="https://m.media-amazon.com/images/I/71JUJ6pGoIL.jpg" style="width: 100% !important; aspect-ratio: 2/3; border-radius: 4px; object-fit: cover; margin: 0 !important; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </div>
   <div style="font-size: 0.95rem; line-height: 1.6; width: 100%;">
     <h3 style="margin: 0 0 5px 0;">Animal Farm</h3>
@@ -27,7 +24,6 @@ date_read: 2025-07-29
     <strong>Finished in date:</strong> 2025-07-29
   </div>
 </div>
-
 ---
 # Thoughts
 
