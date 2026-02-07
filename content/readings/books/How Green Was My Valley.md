@@ -3,7 +3,7 @@ tags:
   - book
   - seedling
 cover: https://m.media-amazon.com/images/I/81MM9NHjDgL.jpg
-title:
+title: How Green Was My Valley
 author: Richard Llewellyn
 status:
   - want to
