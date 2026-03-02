@@ -2,6 +2,7 @@
 tags:
   - album
   - music
+  - tree
 cover_image: https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Everybody_Else_Is_Doing_It%2C_So_Why_Can%27t_We%3F.webp/250px-Everybody_Else_Is_Doing_It%2C_So_Why_Can%27t_We%3F.webp.png
 artist: The Cranberries
 rating: ⭐⭐⭐⭐⭐
